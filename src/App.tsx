@@ -332,11 +332,15 @@ export default function App() {
           <div className="currently-card">
             <div className="currently-item">
               <span className="pulse-dot" />
-              <span>Searching for mentored research opportunities</span>
+              <span>Seeking research opportunities and mentorship</span>
             </div>
             <div className="currently-item">
               <span className="pulse-dot" />
               <span>Competed at GARSEF 2026</span>
+            </div>
+            <div className="currently-item">
+              <span className="pulse-dot" />
+              <span>Scouting for FRC team 2468</span>
             </div>
           </div>
         </section>
