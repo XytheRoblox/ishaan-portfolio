@@ -336,7 +336,7 @@ export default function App() {
             </div>
             <div className="currently-item">
               <span className="pulse-dot" />
-              <span>Competed at GARSEF 2026</span>
+              <span>Competing at GARSEF 2026</span>
             </div>
             <div className="currently-item">
               <span className="pulse-dot" />
