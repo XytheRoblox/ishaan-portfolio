@@ -121,8 +121,8 @@ function CircuitCanvas() {
         const n = nodes[i]
 
         // ambient motion so background never feels static
-        n.vx += Math.sin(n.pulse * 0.7) * 0.006
-        n.vy += Math.cos(n.pulse * 0.9) * 0.006
+        n.vx += Math.sin(n.pulse * 0.7) * 0.012
+        n.vy += Math.cos(n.pulse * 0.9) * 0.012
 
         // elastic pull on only one node
         if (i === pulledNodeIndex) {
@@ -138,7 +138,7 @@ function CircuitCanvas() {
         }
 
         // spring back toward original position (stronger when mouse not pulling)
-        const spring = mouse.active ? 0.004 : 0.006
+        const spring = mouse.active ? 0.012 : 0.016
         n.vx += (n.ox - n.x) * spring
         n.vy += (n.oy - n.y) * spring
 
